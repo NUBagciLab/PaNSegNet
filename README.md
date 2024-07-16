@@ -2,7 +2,6 @@
 
 In our Institutional Review Board (IRB) approved retrospective study, we gathered a large collection of MRI scans of the pancreas, which included both T1 and T2 weighted images, sourced from multiple centers with varying MRI protocols imposing a heterogeneity challenge. We create a new deep learning tool, named PANSegNet, to identify pancreatic tissue in these scans. We also used publicly available CT scans to test our algorthm for pancreas segmentation. We obtained the state of the art results both in CT and MRI scans.
 
-Our paper related to this project can be found in the following arxiv link: xxxxxxx
 Our data is the largest ever MRI pancreas dataset so far in in the literature and can be found here (PanSegData): https://osf.io/kysnj/.
 Please cite our work when you use our code and data.
 
