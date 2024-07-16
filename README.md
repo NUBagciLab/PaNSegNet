@@ -13,7 +13,38 @@ Automated volumetric segmentation of the pancreas on cross-sectional imaging is 
 
 ## Datasets
 Here we provide the segmentation dataset public.
-https://osf.io/kysnj/.
+https://osf.io/kysnj/. Our proposed model achieved accurate segmentation on large scale pancreas MRI datasets.
+![T1 Segmentation Results](./assets/T1_Segmentation_Visualization.png)
 
 ## Pretrained Model
-We also provide the public model for easy access.
+
+Our model is based on [nnUNet v1](https://github.com/MIC-DKFZ/nnUNet.git) and please follow the environment setup correspondingly. We setup our training and model following standard nnUNet style in "nnTransUNetTrainerV2". Therefore, all training and inference can be easily follow the standard nnUNet training and inference.
+
+For example, in order to run inference on several target centers like A, B, C, D for T1 scans, you can use followings script directly. Please note, each center should be organized in standard nnUNet inference style, which means the original scans should be in nii.gz format within one folder and file name should end with _0000 for detection.
+
+```shell
+# Add your target domain in the domain_list
+# Add the base directory where the target domain is stored
+domain_list=(A B C D )
+base_dir="XXX"
+
+for domain in ${domain_list[@]}
+do
+    echo "Inference on ${domain}"
+    input_dir="${base_dir}/${domain}/imagesTs"
+    mkdir ${base_dir}/${domain}/inference_segmentation
+    OUTPUT_DIRECTORY="${base_dir}/${domain}/inference_segmentation"
+    CUDA_VISIBLE_DEVICES=0 nnUNet_predict -tr nnTransUNetTrainerV2 \
+     -i ${input_dir} -o ${OUTPUT_DIRECTORY} -t 110 -m 3d_fullres --folds 0
+    # CUDA_VISIBLE_DEVICES=0 nnUNet_evaluate_folder -ref ${base_dir}/${domain}/labelsTr -pred ${OUTPUT_DIRECTORY} -l 1
+done
+```
+
+We also provide the public model [Pretrained Weight](https://drive.google.com/drive/folders/1TDuQglEWmUkBDtz5_IAjrCKQzlsYFm-v?usp=sharing) for easy access. Note that CT model is marked with ID 109, MRI T1 model is marked with 101, and MRI T2 image is marked with 110. Please be careful for environment variable setups and follow the guidance of nnUNet.
+
+
+## Software for clinical researcher
+
+Additionally, we provide one intuitive GUI software for running the segmentation with "all-in-one" format. Please check the details [PaNSegNet](./software/guidance.md)
+
+![Easy GUI](./assets/GUI.JPG)

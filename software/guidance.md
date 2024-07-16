@@ -1,0 +1,2 @@
+# Guidance for software setups
+
