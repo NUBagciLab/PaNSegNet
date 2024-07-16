@@ -1,5 +1,7 @@
 # Guidance for software setups
 
+## Install
+
 We provide one intuitive GUI software for running the segmentation with "all-in-one" format. All environments are included in the install package, thus the install package is silightly large (around 6.7Gb). This software will aslo calculate the pancreas volume after segmentation automatically for clinical purpose.
 
 <ol>
