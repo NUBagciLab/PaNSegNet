@@ -4,12 +4,11 @@
 
 We provide one intuitive GUI software for running the segmentation with "all-in-one" format. All environments are included in the install package, thus the install package is silightly large (around 6.7Gb). This software will aslo calculate the pancreas volume after segmentation automatically for clinical purpose.
 
-<ol>
-    <li> Download the zip file from this [link](https://drive.google.com/file/d/16FKx51bXxC5BoLXbWjgQmRAbWEqyCXE0/view?usp=sharing).
-    <li> Unzip it to a local folder.
-    <li> Double-click the **run_me.bat** file to start.
-    <li> Select input volumes from local folders and Wait for the software to segment the pancreas.
-</ol>
+1. Download the zip file from this [link](https://drive.google.com/file/d/16FKx51bXxC5BoLXbWjgQmRAbWEqyCXE0/view?usp=sharing).
+2. Unzip it to a local folder.
+3. Double-click the **run_me.bat** file to start.
+4. Select input volumes from local folders and wait for the software to segment the pancreas.
+
 
 
 ## Example Video
