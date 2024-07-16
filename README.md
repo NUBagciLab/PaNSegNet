@@ -48,3 +48,16 @@ We also provide the public model [Pretrained Weight](https://drive.google.com/dr
 Additionally, we provide one intuitive GUI software for running the segmentation with "all-in-one" format. Please check the details [PaNSegNet](./software/guidance.md)
 
 ![Easy GUI](./assets/GUI.JPG)
+
+
+## Citation
+
+Please cite our work if you find it is helpful
+```
+@article{zhang2024large,
+  title={Large-Scale Multi-Center CT and MRI Segmentation of Pancreas with Deep Learning},
+  author={Zhang, Zheyuan and Keles, Elif and Durak, Gorkem and Taktak, Yavuz and Susladkar, Onkar and Gorade, Vandan and Jha, Debesh and Ormeci, Asli C and Medetalibeyoglu, Alpay and Yao, Lanhong and others},
+  journal={arXiv preprint arXiv:2405.12367},
+  year={2024}
+}
+```
