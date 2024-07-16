@@ -9,7 +9,7 @@ We provide one intuitive GUI software for running the segmentation with "all-in-
     <li> Unzip it to a local folder.
     <li> Double-click the **run_me.bat** file to start.
     <li> Select input volumes from local folders and Wait for the software to segment the pancreas.
-<ol>
+</ol>
 
 
 ## Example Video
