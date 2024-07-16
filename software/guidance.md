@@ -10,7 +10,9 @@ We provide one intuitive GUI software for running the segmentation with "all-in-
 <ol>
 
 
+## Example Video
 
 A demo video is also provided [here](https://drive.google.com/file/d/1eyaZOvwBl0mQ8uVL9cA6dV1V4R7_UO95/view?usp=sharing).
+
 
 ![Example GUI](../assets/GUI.JPG)
