@@ -9,6 +9,8 @@ We provide one intuitive GUI software for running the segmentation with "all-in-
     <li> Select input volumes from local folders and Wait for the software to segment the pancreas.
 <ol>
 
+
+
 A demo video is also provided [here](https://drive.google.com/file/d/1eyaZOvwBl0mQ8uVL9cA6dV1V4R7_UO95/view?usp=sharing).
 
 ![Example GUI](../assets/GUI.JPG)
