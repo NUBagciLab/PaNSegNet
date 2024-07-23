@@ -46,7 +46,7 @@ We also provide the public model [Pretrained Weight](https://drive.google.com/dr
 
 Additionally, we provide one intuitive GUI software for running the segmentation with "all-in-one" format. Please check the details [PaNSegNet](./software/guidance.md)
 
-![Easy GUI](./assets/GUI.JPG)
+<!-- ![Easy GUI](./assets/GUI.JPG) -->
 
 
 ## Citation
