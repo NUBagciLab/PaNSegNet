@@ -44,7 +44,7 @@ We also provide the public model [Pretrained Weight](https://drive.google.com/dr
 
 ## Software for clinical researcher
 
-Additionally, we provide one intuitive GUI software for running the segmentation with "all-in-one" format. Please check the details [PaNSegNet](./software/guidance.md)
+Additionally, we provide one intuitive GUI software for running the segmentation with "all-in-one" format. Please check the details [To be released](./software/guidance.md)
 
 <!-- ![Easy GUI](./assets/GUI.JPG) -->
 
