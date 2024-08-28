@@ -19,7 +19,7 @@ from typing import Tuple
 import numpy as np
 import torch
 from nnunet.training.data_augmentation.data_augmentation_moreDA import get_moreDA_augmentation
-from nnunet.training.loss_functions.dice_loss import WDC_and_CE_loss
+from nnunet.training.loss_functions.dice_loss import DC_and_CE_loss
 
 from nnunet.training.loss_functions.deep_supervision import MultipleOutputLoss2
 from nnunet.utilities.to_torch import maybe_to_torch, to_cuda
