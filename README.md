@@ -17,7 +17,7 @@ https://osf.io/kysnj/. Our proposed model achieved accurate segmentation on larg
 
 ## Pretrained Model
 
-Our model is based on [nnUNet v1](https://github.com/MIC-DKFZ/nnUNet.git) and please follow the environment setup correspondingly. We setup our training and model following standard nnUNet style in "nnTransUNetTrainerV2". Therefore, all training and inference can be easily follow the standard nnUNet training and inference.
+Our model is based on [nnUNet v1](https://github.com/MIC-DKFZ/nnUNet/tree/nnunetv1) and please follow the environment setup correspondingly. We setup our training and model following standard nnUNet style in "nnTransUNetTrainerV2". Therefore, all training and inference can be easily follow the standard nnUNet training and inference.
 
 For example, in order to run inference on several target centers like A, B, C, D for T1 scans, you can use followings script directly. Please note, each center should be organized in standard nnUNet inference style, which means the original scans should be in nii.gz format within one folder and file name should end with _0000 for detection.
 
