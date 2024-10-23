@@ -15,6 +15,20 @@ Here we provide the segmentation dataset public.
 https://osf.io/kysnj/. Our proposed model achieved accurate segmentation on large-scale pancreas MRI datasets.
 ![T1 Segmentation Results](./assets/T1_Segmentation_Visualization.png)
 
+## Prepocessing
+After downloading the dataset, please follow the standard data preprocess in nnUNet format. For example, if the dataset ID for T1 is 110, please use the following code
+``` shell
+nnUNet_plan_and_preprocess -t 110
+```
+## Training and testing
+We implement our segmentation model under the standard nnUNet trainer as nnTransUNetTrainerV2. Thus, all training and testing can be conducted in standard nnUNet ways like follow:
+``` shell
+## 110 is your dataset ID
+## input_dir, output_dir are the folder for your input and output
+nnUNet_train 3d_fullres nnTransUNetTrainerV2 110 0
+nnUNet_predict -tr nnTransUNetTrainerV2 -i ${input_dir} -o ${output_dir} -t 110 -m 3d_fullres --folds 0
+```
+
 ## Pretrained Model
 
 Our model is based on [nnUNet v1](https://github.com/MIC-DKFZ/nnUNet/tree/nnunetv1). Please follow the environment setup correspondingly. We set up our training and model following standard nnUNet style in "nnTransUNetTrainerV2". Therefore, all training and inference can easily follow the standard nnUNet training and inference.
