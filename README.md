@@ -55,6 +55,7 @@ done
 
 We also provide the public model [Pretrained Weight](https://drive.google.com/drive/folders/1TDuQglEWmUkBDtz5_IAjrCKQzlsYFm-v?usp=sharing) for easy access. Note that CT model is marked with ID 109, MRI T1 model is marked with 110, and MRI T2 image is marked with 111. Please be careful for environment variable setups and follow the guidance of nnUNet. Also, other comparision model's pretrained weights are provided in [huggingface](https://huggingface.co/onkarsus13/Northwestern_pan_seg/tree/main)
 
+For comparison with SAM and MedSAM, please refer to [Pancreas_SAM](https://github.com/NUBagciLab/Pancreas_SAM)
 
 ## Software for clinical researcher
 
