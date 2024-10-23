@@ -13,7 +13,7 @@ We provide one intuitive GUI software for running the segmentation with "all-in-
 
 ## Example Video
 
-A demo video is also provided [video](https://drive.google.com/file/d/1iyKKlGc7oZhhZGhR0ofk5VVjY2-3eyYa/view?usp=sharing)
+A demo video is also provided [video](https://www.youtube.com/watch?v=fi5hyUUFPa0)
 
 
 [![Example GUI](../assets/GUI.jpg)](https://drive.google.com/drive/folders/1r28odxe868DpRybzwYzOgHCJtrgual6I?usp=sharing)
