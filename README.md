@@ -59,7 +59,7 @@ For comparison with SAM and MedSAM, please refer to [Pancreas_SAM](https://githu
 
 ## Software for clinical researcher
 
-Additionally, we provide one intuitive GUI software for running the segmentation with "all-in-one" format. Please check the details [PaNSegNet](./software/guidance.md)
+Additionally, we provide one intuitive GUI software for running the segmentation with "all-in-one" format. Please check the details [Software Guidance](./software/guidance.md)
 
 ![Easy GUI](./assets/GUI.jpg)
 

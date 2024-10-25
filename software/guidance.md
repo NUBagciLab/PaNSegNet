@@ -1,4 +1,4 @@
-# Guidance for software setups
+# Guidance for Software Setups
 
 ## Install
 
